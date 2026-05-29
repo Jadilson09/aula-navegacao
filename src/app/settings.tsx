@@ -1,7 +1,7 @@
 import { Text, View } from "react-native";
 import { Link } from "expo-router";
 
-export default function Index() {
+export default function Settings() {
   return (
     <View
       style={{
@@ -10,10 +10,10 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Tela principal</Text>
+      <Text>Tela de configurações</Text>
 
-      <Link href="/settings">
-        <Text>Clique aqui para navegar até as Configurações</Text>
+      <Link href="/">
+        <Text>Clique aqui para navegar até a Home</Text>
       </Link>
 
       <Link href="/ajuda">
